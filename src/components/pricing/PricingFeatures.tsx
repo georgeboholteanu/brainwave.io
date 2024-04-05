@@ -42,7 +42,7 @@ const PricingCards = [
 ];
 const PricingFeatures = () => {
 	return (
-		<div className="mt-20 md:mt-40  mx-5 flex flex-col items-center justify-center gap-5">
+		<div className="mt-20 md:mt-40 mx-5 flex flex-col items-center justify-center gap-5">
 			<div>
 				<h2 className="font-gilroyExtraBold text-3xl md:text-5xl text-center">
 					Check our features
