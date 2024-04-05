@@ -9,11 +9,13 @@ const config: Config = {
 	theme: {
 		extend: {
 			fontSize: {
-				"text-15": "15px",
-				"text-17": "17px",
-				"text-21": "21px",
-				"text-24": "24px",
-				"text-60": "60px",
+				"font-size-15": "15px",
+				"font-size-17": "17px",
+				"font-size-19": "19px",
+				"font-size-21": "21px",
+				"font-size-24": "24px",
+				"font-size-30": "30px",
+				"font-size-60": "60px",
 			},
 			colors: {
 				"primary-color": "#161C2D",

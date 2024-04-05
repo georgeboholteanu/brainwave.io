@@ -1,7 +1,7 @@
-import Image from "next/image";
+import PricingHero from "@/components/pricing/PricingHero";
 
 export default function Home() {
   return (
-    <div>home</div>
+    <div><PricingHero /></div>
   );
 }
