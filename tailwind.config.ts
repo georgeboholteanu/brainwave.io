@@ -8,11 +8,29 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontSize: {
+        'text-15': '15px',
+        'text-17': '17px',
+        'text-21': '21px',
+        'text-24': '24px',
+        'text-60': '60px',
       },
+      colors: {
+        'primary': '#161C2D',
+        'secondary': '#473BF0',               
+      },
+      fontFamily: {        
+        'gilroyLight': ['GilroyLight', 'sans-serif'],
+        'gilroyExtraBold': ['GilroyExtraBold', 'sans-serif'],
+      },
+      borderRadius: {
+        'border-10': '10px',
+        'border-20': '20px',
+      },
+      fontWeight: {
+        'font-400': '400',
+        'font-700': '700',
+      }    
     },
   },
   plugins: [],

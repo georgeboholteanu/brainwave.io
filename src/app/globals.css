@@ -2,3 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+	font-family: "GilroyLight";
+	src: url("/assets/fonts/Gilroy-FREE/Gilroy-Light.otf") format("opentype");
+	font-weight: lighter;
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "GilroyExtraBold";
+	src: url("/assets/fonts/Gilroy-FREE/Gilroy-ExtraBold.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+	font-weight: 700;
+}
+
+body {
+	font-family: "GilroyLight";
+	color: #161C2D;
+}
