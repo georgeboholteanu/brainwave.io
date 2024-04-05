@@ -16,8 +16,8 @@ const config: Config = {
         'text-60': '60px',
       },
       colors: {
-        'primary': '#161C2D',
-        'secondary': '#473BF0',               
+        'primary-color': '#161C2D',
+        'secondary-color': '#473BF0',               
       },
       fontFamily: {        
         'gilroyLight': ['GilroyLight', 'sans-serif'],
