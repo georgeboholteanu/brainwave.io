@@ -3,7 +3,6 @@ import React from "react";
 import Toggle from "react-toggle";
 import "react-toggle/style.css";
 import Link from "next/link";
-import styles from "./styles.module.css";
 import Image from "next/image";
 import RightArrowSvg from "./RightArrowSvg";
 

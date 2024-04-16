@@ -16,15 +16,15 @@ const RightArrowSvg = () => {
 				d="M7.93311 2L13.9998 7.63333L7.93311 13.2667"
 				stroke="currentColor"
 				stroke-width="2"
-				stroke-linecap="square"
-				stroke-linejoin="bevel"
+				strokeLinecap="square"
+				strokeLinejoin="bevel"
 			/>
 			<path
 				d="M1 7.40123H13.1333"
 				stroke="currentColor"
-				stroke-width="2"
-				stroke-linecap="square"
-				stroke-linejoin="bevel"
+				strokeWidth="2"
+				strokeLinecap="square"
+				strokeLinejoin="bevel"
 			/>
 		</svg>
 	);
