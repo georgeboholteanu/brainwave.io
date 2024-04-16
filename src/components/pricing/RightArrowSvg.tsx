@@ -15,7 +15,7 @@ const RightArrowSvg = () => {
 			<path
 				d="M7.93311 2L13.9998 7.63333L7.93311 13.2667"
 				stroke="currentColor"
-				stroke-width="2"
+				strokeWidth="2"
 				strokeLinecap="square"
 				strokeLinejoin="bevel"
 			/>

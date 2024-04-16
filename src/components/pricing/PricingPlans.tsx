@@ -9,7 +9,10 @@ import RightArrowSvg from "./RightArrowSvg";
 const pricingPlans = [
 	{
 		name: "Starter",
-		price: 19,
+		price: {
+			monthly: 19,
+			yearly: 190,
+		},
 		features: [
 			{ name: "Commercial Licence", available: true },
 			{ name: "100+ HTML UI Elements", available: true },
@@ -20,7 +23,10 @@ const pricingPlans = [
 	},
 	{
 		name: "Standard",
-		price: 49,
+		price: {
+			monthly: 29,
+			yearly: 290,
+		},
 		features: [
 			{ name: "Commercial Licence", available: true },
 			{ name: "100+ HTML UI Elements", available: true },
@@ -31,7 +37,10 @@ const pricingPlans = [
 	},
 	{
 		name: "Premium",
-		price: 99,
+		price: {
+			monthly: 39,
+			yearly: 390,
+		},
 		features: [
 			{ name: "Commercial Licence", available: true },
 			{ name: "100+ HTML UI Elements", available: true },
@@ -86,13 +95,14 @@ const PricingPlans = () => {
 							</p>
 							<p className="font-gilroyExtraBold text-md mt-10">
 								<span className="text-2xl">$</span>
-								<span className="text-6xl">{plan.price}</span>
+								
+								<span className="text-6xl">{toggled ? plan.price.yearly : plan.price.monthly}</span>
 								<span className="text-md font-gilroyLight">
-									/month
+									{toggled ? "/yr" : "/mo"}
 								</span>
 							</p>
 							<p className="text-sm mt-2 text-primary-color/70">
-								billed monthly
+								billed {toggled ? "yearly" : "monthly"}
 							</p>
 							<div className="text-md my-8 flex flex-col gap-y-3">
 								{plan.features.map((feature) => {
